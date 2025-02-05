@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto Portfolio" />
+    <meta name="Author" content="Joao Henrique" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <link rel="icon" href=".assets/img/favicon.svg" />
+    <title>Portfólio do João Henrique</title>
+  </head>
+  <body>
+    <!-- cabeçalho da pagina -->
+    <header>
+      <div id="header_content">
+        <!-- titulo do cabeçalho -->
+        <div id="titulo">
+          <a href="#">Universo</a>
+        </div>
+
+        <!-- menu -->
+        <div id="menu">
+          <nav>
+            <!-- Marcadores não ordenados-->
+            <ul>
+              <li><a href="#">Home </a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- corpo da pagina -->
+    <main>
+      <section id="home">
+        <article id="home_texto">
+          <h4>Bem vindo ao novo Universo</h4>
+          <h1>Mundos Diferentes para pessoas diferentes</h1>
+          <p>
+            Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie
+            leo, vitae iaculis nisl. Admodum accumsan disputationi eu sit. Vide
+            electram sadipscing et per. Delegadis gente finis, bibendum egestas
+            augue arcu ut est. Sapien in monti palavris qui num significa nadis
+            i pareci latim.
+          </p>
+          <a href="https://github.com/jhacss" target="_blank"> Explorar </a>
+        </article>
+
+        <article id="home_imagem">
+          <img
+            src="assets/img/astronauta.svg"
+            alt="Capacete de astronauta animado"
+          />
+        </article>
+      </section>
+
+      <section id="about">
+        <article id="about_imagem">
+          <img src="assets/img/user_01.svg" alt="Foto do perfil do GitHub" />
+
+          <article id="about_texto">
+            <h1>sobre mim</h1>
+            <p>
+              Meu nome é João Henrique, e sou apaixonado por tecnologia e
+              resolução de problemas. Atualmente, curso Análise e
+              Desenvolvimento de Sistemas na UFBRA e estou complementando minha
+              formação com um bootcamp intensivo de desenvolvimento full stack.
+              Tenho desenvolvido habilidades em JavaScript, Node.js, React e
+              SQL, e estou sempre buscando aprender e aplicar novas tecnologias
+              em projetos que impactem positivamente o ambiente ao meu redor
+            </p>
+
+            <div id="about_github">
+              <a href="https://github.com/jhacss" target="_blank"> github </a>
+              <p>200 seguidores</p>
+              <p>20 repositorios</p>
+            </div>
+          </article>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h4>Contate-me</h4>
+        <p>
+          Clique nos ícones abaixo para ser redirecionado para as minhas redes
+        </p>
+
+        <div id="icones_redes_sociais">
+          <a
+            href="https://www.linkedin.com/in/jo%C3%A3o-henrique-0665081a2/"
+            target="_blank"
+          >
+            <img src="./assets/img/linkedin.svg" alt="logo do linkedin" />
+          </a>
+
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./assets/img/instagram.svg" alt="logo do instagram" />
+          </a>
+
+          <a href="https://github.com/Jhacss" target="_blank">
+            <img src="./assets/img/github.svg" alt="logo do github" />
+          </a>
+        </div>
+
+        <form action="" method="POST">
+          <label for="nome">Nome</label>
+          <input
+            id="nome"
+            type="text"
+            name="nome"
+            placeholder="Digite Seu nome"
+          />
+          <span id="txtNome"></span>
+
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Digite o endereço do seu email"
+          />
+          <span id="txtEmail"></span>
+
+          <label for="assunto">Nome</label>
+          <input
+            id="assunto"
+            type="text"
+            name="assunto"
+            placeholder="Digite o assunto da mensagem"
+          />
+          <span id="txtAssunto"></span>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            placeholder="Digite a mensagem"
+          >
+          </textarea>
+
+          <button type="submit"><a href="sucesso.html">Enviar</a></button>
+        </form>
+      </section>
+    </main>
+
+    <!-- rodapé da pagina -->
+    <footer>Feito com 🧡 por João Henrique - 2025</footer>
+
+  </body>
+</html>
