@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonte do Google - Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Projeto Portfolio" />
     <meta name="Author" content="Joao Henrique" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="icon" href=".assets/img/favicon.svg" />
+
+    <!-- link para a folha de estilos CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
     <title>Portfólio do João Henrique</title>
   </head>
   <body>
     <!-- cabeçalho da pagina -->
-    <header>
-      <div id="header_content">
+    <header class="flex menu_container">
+      <div id="header_content" class="menu_content">
         <!-- titulo do cabeçalho -->
         <div id="titulo">
           <a href="#">Universo</a>
         </div>
 
         <!-- menu -->
-        <div id="menu">
+        <div id="menu" class="flex">
           <nav>
             <!-- Marcadores não ordenados-->
-            <ul>
+            <ul class="flex menu_list">
               <li><a href="#">Home </a></li>
               <li><a href="#about">Sobre</a></li>
               <li><a href="#contact">Contato</a></li>
@@ -34,10 +48,10 @@
 
     <!-- corpo da pagina -->
     <main>
-      <section id="home">
-        <article id="home_texto">
+      <section id="home" class="flex home_container">
+        <article id="home_texto" class="flex home_content">
           <h4>Bem vindo ao novo Universo</h4>
-          <h1>Mundos Diferentes para pessoas diferentes</h1>
+          <h1>Mundos diferentes para pessoas diferentes</h1>
           <p>
             Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie
             leo, vitae iaculis nisl. Admodum accumsan disputationi eu sit. Vide
@@ -45,10 +59,12 @@
             augue arcu ut est. Sapien in monti palavris qui num significa nadis
             i pareci latim.
           </p>
-          <a href="https://github.com/jhacss" target="_blank"> Explorar </a>
+          <a href="https://github.com/jhacss" target="_blank" class="botao">
+            Explorar
+          </a>
         </article>
 
-        <article id="home_imagem">
+        <article id="home_imagem" class="flex home_content">
           <img
             src="assets/img/astronauta.svg"
             alt="Capacete de astronauta animado"
@@ -56,28 +72,28 @@
         </article>
       </section>
 
-      <section id="about">
-        <article id="about_imagem">
-          <img src="assets/img/user_01.svg" alt="Foto do perfil do GitHub" />
+      <section id="about" class="flex about_container">
+        <img class = "about_imagem" src="assets/img/user_01.svg"  alt="Foto do perfil do GitHub" />
 
-          <article id="about_texto">
-            <h1>sobre mim</h1>
-            <p>
-              Meu nome é João Henrique, e sou apaixonado por tecnologia e
-              resolução de problemas. Atualmente, curso Análise e
-              Desenvolvimento de Sistemas na UFBRA e estou complementando minha
-              formação com um bootcamp intensivo de desenvolvimento full stack.
-              Tenho desenvolvido habilidades em JavaScript, Node.js, React e
-              SQL, e estou sempre buscando aprender e aplicar novas tecnologias
-              em projetos que impactem positivamente o ambiente ao meu redor
-            </p>
+        <article id="about_texto" class = "flex about_content">
+          <h1>Sobre mim</h1>
+          <p>
+            Meu nome é João Henrique, e sou apaixonado por tecnologia e
+            resolução de problemas. Atualmente, curso Análise e Desenvolvimento
+            de Sistemas na UFBRA e estou complementando minha formação com um
+            bootcamp intensivo de desenvolvimento full stack. Tenho desenvolvido
+            habilidades em JavaScript, Node.js, React e SQL, e estou sempre
+            buscando aprender e aplicar novas tecnologias em projetos que
+            impactem positivamente o ambiente ao meu redor
+          </p>
 
-            <div id="about_github">
-              <a href="https://github.com/jhacss" target="_blank"> github </a>
-              <p>200 seguidores</p>
-              <p>20 repositorios</p>
-            </div>
-          </article>
+          <div id="about_github" class="github_infos">
+            <a href="https://github.com/jhacss" target="_blank" class="botao">
+              github
+            </a>
+            <p>200 seguidores</p>
+            <p>20 repositorios</p>
+          </div>
         </article>
       </section>
 
@@ -146,7 +162,6 @@
     </main>
 
     <!-- rodapé da pagina -->
-    <footer>Feito com 🧡 por João Henrique - 2025</footer>
-
+    <footer class = "rodape">Feito com 🧡 por João Henrique - 2025</footer>
   </body>
 </html>
