@@ -1,167 +1,203 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Fontes do Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <head>
+        <!-- Fontes do Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Fonte do Google - Poppins -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+        <!-- Fonte do Google - Poppins -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Projeto Portfolio" />
-    <meta name="Author" content="Joao Henrique" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <link rel="icon" href=".assets/img/favicon.svg" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Projeto Portfólio" />
+        <meta name="author" content="João Henrique" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <link rel="icon" href="./assets/img/favicon.svg" />
 
-    <!-- link para a folha de estilos CSS-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+        <!--  Link para a Folha de Estilos CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <title>Portfólio do João Henrique</title>
-  </head>
-  <body>
-    <!-- cabeçalho da pagina -->
-    <header class="flex menu_container">
-      <div id="header_content" class="menu_content">
-        <!-- titulo do cabeçalho -->
-        <div id="titulo">
-          <a href="#">Universo</a>
-        </div>
+        <title>Portfólio do João</title>
+    </head>
 
-        <!-- menu -->
-        <div id="menu" class="flex">
-          <nav>
-            <!-- Marcadores não ordenados-->
-            <ul class="flex menu_list">
-              <li><a href="#">Home </a></li>
-              <li><a href="#about">Sobre</a></li>
-              <li><a href="#contact">Contato</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+    <body>
+        <!-- Cabeçalho da Página -->
+        <header class="flex menu_container">
+            <div id="header_content" class="menu_content">
+                <!-- Título do Cabeçalho -->
+                <div id="titulo">
+                    <a href="#">João Henrique - PORTIFÓLIO</a>
+                </div>
 
-    <!-- corpo da pagina -->
-    <main>
-      <section id="home" class="flex home_container">
-        <article id="home_texto" class="flex home_content">
-          <h4>Bem vindo ao novo Universo</h4>
-          <h1>Mundos diferentes para pessoas diferentes</h1>
-          <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie
-            leo, vitae iaculis nisl. Admodum accumsan disputationi eu sit. Vide
-            electram sadipscing et per. Delegadis gente finis, bibendum egestas
-            augue arcu ut est. Sapien in monti palavris qui num significa nadis
-            i pareci latim.
-          </p>
-          <a href="https://github.com/jhacss" target="_blank" class="botao">
-            Explorar
-          </a>
-        </article>
+                <!-- Menu -->
+                <div id="menu" class="flex">
+                    <nav>
+                        <!-- Marcadores não Ordenados para criar as opções do menu -->
+                        <ul class="flex menu_list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-        <article id="home_imagem" class="flex home_content">
-          <img
-            src="assets/img/astronauta.svg"
-            alt="Capacete de astronauta animado"
-          />
-        </article>
-      </section>
+        <!-- Seção Principal da Página -->
+        <main>
+            <!-- Seção home -->
+            <section id="home" class="flex home_container">
+                <!-- Texto da Seção Home -->
+                <article id="home_texto" class="flex home_content">
+                    <h4>Bem-vindo ao João Henrique - PORTIFÓLIO</h4>
+                    <h1>Mundos diferentes para pessoas diferentes</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Totam ipsum eum sapiente maiores adipisci aperiam
+                        sint dignissimos molestias voluptas expedita doloribus
+                        consequatur saepe maxime, tempore modi eligendi, eius,
+                        eos itaque.
+                    </p>
+                    <a
+                        href="https://github.com/Jhacss"
+                        target="_blank"
+                        class="botao"
+                    >
+                        Explorar
+                    </a>
+                </article>
 
-      <section id="about" class="flex about_container">
-        <img class = "about_imagem" src="assets/img/user_01.svg"  alt="Foto do perfil do GitHub" />
+                <!-- Imagem da Seção Home -->
+                <article id="home_imagem" class="flex home_content">
+                    <img
+                        src="./assets/img/astronauta.svg"
+                        alt="Capacete de Astronauta Animado"
+                    />
+                </article>
+            </section>
 
-        <article id="about_texto" class = "flex about_content">
-          <h1>Sobre mim</h1>
-          <p>
-            Meu nome é João Henrique, e sou apaixonado por tecnologia e
-            resolução de problemas. Atualmente, curso Análise e Desenvolvimento
-            de Sistemas na UFBRA e estou complementando minha formação com um
-            bootcamp intensivo de desenvolvimento full stack. Tenho desenvolvido
-            habilidades em JavaScript, Node.js, React e SQL, e estou sempre
-            buscando aprender e aplicar novas tecnologias em projetos que
-            impactem positivamente o ambiente ao meu redor
-          </p>
+            <!-- Seção sobre -->
+            <section id="about" class="flex sobre_container">
+                <!-- Imagem da Seção Sobre -->
+                <img
+                    src="./assets/img/user_01.svg"
+                    alt="Foto do Perfil do Github"
+                />
 
-          <div id="about_github" class="github_infos">
-            <a href="https://github.com/jhacss" target="_blank" class="botao">
-              github
-            </a>
-            <p>200 seguidores</p>
-            <p>20 repositorios</p>
-          </div>
-        </article>
-      </section>
+                <!-- Texto da Seção Sobre -->
+                <article id="about_texto">
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Meu nome é João Henrique, e sou apaixonado por
+                        tecnologia e resolução de problemas. Atualmente, curso
+                        Análise e Desenvolvimento de Sistemas na UFBRA e estou
+                        complementando minha formação com um bootcamp intensivo
+                        de desenvolvimento full stack. Tenho desenvolvido
+                        habilidades em JavaScript, Node.js, React e SQL, e estou
+                        sempre buscando aprender e aplicar novas tecnologias em
+                        projetos que impactem positivamente o ambiente ao meu
+                        redor
+                    </p>
 
-      <section id="contact">
-        <h4>Contate-me</h4>
-        <p>
-          Clique nos ícones abaixo para ser redirecionado para as minhas redes
-        </p>
+                    <!-- Detalhes do Github -->
+                    <div id="about_github" class="flex sobre_github">
+                        <a
+                            href="https://github.com/Jhacss"
+                            target="_blank"
+                            class="botao"
+                        >
+                            Github
+                        </a>
+                        <p>200 Seguidores</p>
+                        <p>20 Repositórios</p>
+                    </div>
+                </article>
+            </section>
 
-        <div id="icones_redes_sociais">
-          <a
-            href="https://www.linkedin.com/in/jo%C3%A3o-henrique-0665081a2/"
-            target="_blank"
-          >
-            <img src="./assets/img/linkedin.svg" alt="logo do linkedin" />
-          </a>
+            <!-- Seção de Contato -->
+            <section id="contact" class="contato_container">
+                <article id="redes_sociais" class="contato_content">
+                    <h4>Contate-me</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptatum quae voluptas error omnis, deleniti
+                        molestiae dolores earum incidunt sint minus magni sunt
+                        maiores minima, cumque quam numquam officia obcaecati
+                        perspiciatis.
+                    </p>
 
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="./assets/img/instagram.svg" alt="logo do instagram" />
-          </a>
+                    <!-- Redes Sociais -->
+                    <div id="icones_redes_sociais" class="social_container">
+                        <a href="" target="_blank">
+                            <img
+                                src="./assets/img/linkedin.svg"
+                                alt="Logo do LinkedIn"
+                                class="social_icon"
+                            />
+                        </a>
+                        <a href="https://github.com/Jhacss" target="_blank">
+                            <img
+                                src="./assets/img/github.svg"
+                                alt="Logo do Github"
+                                class="social_icon"
+                            />
+                        </a>
+                        <a href="" target="_blank">
+                            <img
+                                src="./assets/img/instagram.svg"
+                                alt="Logo do Instagram"
+                                class="social_icon"
+                            />
+                        </a>
+                    </div>
+                </article>
 
-          <a href="https://github.com/Jhacss" target="_blank">
-            <img src="./assets/img/github.svg" alt="logo do github" />
-          </a>
-        </div>
+                <!-- Formulário de Contato -->
+                <form action="sucesso.html" method="POST">
+                    <label for="nome">Nome</label>
+                    <input
+                        id="nome"
+                        type="text"
+                        name="nome"
+                        placeholder="Digite o seu nome"
+                    />
+                    <span id="txtNome"></span>
 
-        <form action="" method="POST">
-          <label for="nome">Nome</label>
-          <input
-            id="nome"
-            type="text"
-            name="nome"
-            placeholder="Digite Seu nome"
-          />
-          <span id="txtNome"></span>
+                    <label for="email">E-mail</label>
+                    <input
+                        id="email"
+                        type="text"
+                        name="email"
+                        placeholder="Digite o endereço do seu e-mail"
+                    />
+                    <span id="txtEmail"></span>
 
-          <label for="email">Email</label>
-          <input
-            id="email"
-            type="text"
-            name="email"
-            placeholder="Digite o endereço do seu email"
-          />
-          <span id="txtEmail"></span>
+                    <label for="assunto">Assunto</label>
+                    <input
+                        id="assunto"
+                        type="text"
+                        name="assunto"
+                        placeholder="Digite o assunto da mensagem"
+                    />
+                    <span id="txtAssunto"></span>
 
-          <label for="assunto">Nome</label>
-          <input
-            id="assunto"
-            type="text"
-            name="assunto"
-            placeholder="Digite o assunto da mensagem"
-          />
-          <span id="txtAssunto"></span>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        placeholder="Digite a sua mensagem"
+                    ></textarea>
 
-          <label for="mensagem">Mensagem</label>
-          <textarea
-            id="mensagem"
-            name="mensagem"
-            placeholder="Digite a mensagem"
-          >
-          </textarea>
+                    <button type="submit" class="botao">Enviar</button>
+                </form>
+            </section>
+        </main>
 
-          <button type="submit"><a href="sucesso.html">Enviar</a></button>
-        </form>
-      </section>
-    </main>
-
-    <!-- rodapé da pagina -->
-    <footer class = "rodape">Feito com 🧡 por João Henrique - 2025</footer>
-  </body>
+        <!-- Rodapé da Página -->
+        <footer>Feito com 🧡 por João Henrique - 2025</footer>
+    </body>
 </html>
