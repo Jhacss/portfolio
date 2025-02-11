@@ -81,42 +81,7 @@
             </section>
 
             <!-- Seção sobre -->
-            <section id="about" class="flex sobre_container">
-                <!-- Imagem da Seção Sobre -->
-                <img
-                    src="./assets/img/user_01.svg"
-                    alt="Foto do Perfil do Github"
-                />
-
-                <!-- Texto da Seção Sobre -->
-                <article id="about_texto">
-                    <h2>Sobre mim</h2>
-                    <p>
-                        Meu nome é João Henrique, e sou apaixonado por
-                        tecnologia e resolução de problemas. Atualmente, curso
-                        Análise e Desenvolvimento de Sistemas na UFBRA e estou
-                        complementando minha formação com um bootcamp intensivo
-                        de desenvolvimento full stack. Tenho desenvolvido
-                        habilidades em JavaScript, Node.js, React e SQL, e estou
-                        sempre buscando aprender e aplicar novas tecnologias em
-                        projetos que impactem positivamente o ambiente ao meu
-                        redor
-                    </p>
-
-                    <!-- Detalhes do Github -->
-                    <div id="about_github" class="flex sobre_github">
-                        <a
-                            href="https://github.com/Jhacss"
-                            target="_blank"
-                            class="botao"
-                        >
-                            Github
-                        </a>
-                        <p>200 Seguidores</p>
-                        <p>20 Repositórios</p>
-                    </div>
-                </article>
-            </section>
+            <section id="about" class="flex sobre_container"></section>
 
             <!-- Seção de Contato -->
             <section id="contact" class="contato_container">
@@ -157,7 +122,12 @@
                 </article>
 
                 <!-- Formulário de Contato -->
-                <form action="sucesso.html" method="POST">
+                <form action="https://formsubmit.co/da53cb82097c68778ba1699cbcf6602f" method="POST" id="formulario">
+ 
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5501/sucess.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+
                     <label for="nome">Nome</label>
                     <input
                         id="nome"
@@ -199,5 +169,8 @@
 
         <!-- Rodapé da Página -->
         <footer>Feito com 🧡 por João Henrique - 2025</footer>
+
+        <!-- Script JavaScript-->
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
